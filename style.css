@@ -1,13 +1,15 @@
 *{ /*universal*/
-    margin: 0; /*margem/
+    margin: 0; /*margem*/
     padding: 0; /*espaçamento interno*/
+    font-family: arial, sans-serif;
+    font-size: 13px; /*tamanho da fonte*/
 
 }
 
 img{   /*ESTILO TAG IMAGEM*/
     height: 92px;/*altura*/
 }
-a{   /*TAG /LINK/
+a{   /*TAG /LINK*/
     text-decoration: none;/*tirou decoração de texto*/
     color: #1f1f1f; /*COR DO TEXTO*/
     font-size: 13px;/*tamanho fonte*/
@@ -27,3 +29,9 @@ footer{ /*seletor da tag FONTER/RODAPÉ*/
     font-weight: 500px; /*PESO DA FONTE*/
     border-radius: 40px; /*RAIO DA BORDA(CURVATURA)*/
 } 
+.caixa-rodape{
+    padding:15px 30px;
+}
+.caixa-rodape-borda{
+     border-bottom: 1PX solid #dadce0; /*BORDA INFERIOR*/
+}
