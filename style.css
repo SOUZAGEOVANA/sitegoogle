@@ -30,8 +30,21 @@ footer{ /*seletor da tag FONTER/RODAPÉ*/
     border-radius: 40px; /*RAIO DA BORDA(CURVATURA)*/
 } 
 .caixa-rodape{
+    display:flex;
+    justify-content: space-between;
     padding:15px 30px;
 }
 .caixa-rodape-borda{
      border-bottom: 1PX solid #dadce0; /*BORDA INFERIOR*/
+}
+.caixa-links{
+    display:flex;
+    gap: 30px; /*espaçamento entre os itens da div caixa-links*/
+}
+header{ /*cabeçalho*/
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+
 }
