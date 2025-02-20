@@ -5,7 +5,6 @@
     font-size: 13px; /*tamanho da fonte*/
 
 }
-
 img{   /*ESTILO TAG IMAGEM*/
     height: 92px;/*altura*/
 }
@@ -15,20 +14,48 @@ a{   /*TAG /LINK*/
     font-size: 13px;/*tamanho fonte*/
     font-family: sans-serif;/*tipo/familia DA FONTE*/
 }
-.icone-produtos{ /*CLASSE ICONE-PRODUTOS*/
-    width: 24px;/*largura*/
-    fill: #444746;/*COR preenchimento*/
+
+/*MAIN PRINCIPAL*/
+.caixa-pesquisa{
+    display: flex;
+    width: 583px; /*LARGURA*/
+    padding: 10px 14px;
+    align-items: center; /*ALINAHMENTO OS ITENS AO CENTRO VERTICAL*/
+    gap: 13px; /*espaçamento entre os elementos filho*/
+    border: 1px solid #dfe1e5; /*borda*/
+    border-radius: 100px; /*raio da borda*/
+
 }
+.caixa-icones{
+    display: flex;
+    align-items: center; /*alinhado na vertical*/
+    gap: 16px; /*espaçamento entre os itens*/
+}
+.input-pesquisa{
+    width: 100%; /*ocupar 100% da largura disponivel*/
+    border: none; /*borda nenhuma*/
+    outline: none; /*sombreamento quando selecionado nenhum*/
+}
+.icone-lupa{
+    width: 20px; /*LARGURA*/
+    fill:#9aa0a6 /*PREENCHIMENTO*/
+
+}
+.icone-teclado{
+    width: 16px; /*LARGURA*/
+    height: 12px; /*altura*/
+}
+.icone-colorido{
+    width: 24px; /*LARGURA*/
+
+}
+
+
+/*RODAPE*/
 footer{ /*seletor da tag FONTER/RODAPÉ*/
     background-color: #f2f2f2 /*COR DE FUNDO*/
 }
-.botao-login{  /*classe botao-login*/
-    background-color: #1a73e8;/*cor de  fundo*/
-    color: white; /*COR DO TEXTO*/
-    padding: 13px 12px;/*espaçamento interno*/
-    font-weight: 500px; /*PESO DA FONTE*/
-    border-radius: 40px; /*RAIO DA BORDA(CURVATURA)*/
-} 
+
 .caixa-rodape{
     display:flex;
     justify-content: space-between;
@@ -41,10 +68,24 @@ footer{ /*seletor da tag FONTER/RODAPÉ*/
     display:flex;
     gap: 30px; /*espaçamento entre os itens da div caixa-links*/
 }
-header{ /*cabeçalho*/
+
+/*cabeçalho*/
+header{ 
     display:flex;
     justify-content: flex-end;
     align-items: center;
     gap: 15px;
 
+}
+.botao-login{  /*classe botao-login*/
+    background-color: #1a73e8;/*cor de  fundo*/
+    color: white; /*COR DO TEXTO*/
+    padding: 13px 12px;/*espaçamento interno*/
+    font-weight: 500px; /*PESO DA FONTE*/
+    border-radius: 40px; /*RAIO DA BORDA(CURVATURA)*/
+} 
+
+.icone-produtos{ /*CLASSE ICONE-PRODUTOS*/
+    width: 24px;/*largura*/
+    fill: #444746;/*COR preenchimento*/
 }
